@@ -1,6 +1,8 @@
 #include<iostream>
 #include<string.h>
 
+//algoritmo union-find para detecção de ciclos em DAGs
+
 int buscaSubset(int subset[], int v);
 void uniao(int subset[], int i, int j);
 int ciclo(int grafo[3][3]);
